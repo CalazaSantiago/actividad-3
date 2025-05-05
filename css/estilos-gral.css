@@ -6,6 +6,7 @@
 #imgg{
     height: 500px;
     width: 100%;
+    height: auto;
 }
 
 .contenedor1{
@@ -27,4 +28,11 @@
 
 p{
 font-size: 30px;
+}
+
+@media (max-width: 600px){
+    .contenedor1 {
+        flex-direction: column;
+        padding: 20px;
+    }
 }
