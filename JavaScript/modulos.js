@@ -1,5 +1,5 @@
  const header =  `<h1>inicio</h1>`;
- document.getElementById("header").innerHTML = header;
+ document.querySelector(header).innerHTML = header;
 
 const nav = ` <ul>
             <li><a href="inicio.html">inicio</a></li>
@@ -8,8 +8,8 @@ const nav = ` <ul>
         </ul>
 `;
 
-document.getElementById("nav").innerHTML = nav;
+document.querySelector(nav).innerHTML = nav;
 
 
 const footer = ' <h3> Argentina© 2025 Southbay S.R.L. Todos los derechos reservados</h3>';
-document.getElementById("footer").innerHTML = footer;
+document.querySelector(footer).innerHTML = footer;
