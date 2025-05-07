@@ -2,9 +2,9 @@
  document.getElementById("header").innerHTML = header;
 
 const nav = ` <ul>
-            <li><a href="index.html">inicio</a></li>
-            <li><a href="pagina1.html">galeria</a></li>
-            <li><a href="pagina2.html">contacto</a></li>
+            <li><a href="inicio.html">inicio</a></li>
+            <li><a href="galeria.html">galeria</a></li>
+            <li><a href="login.html">contacto</a></li>
         </ul>
 `;
 
